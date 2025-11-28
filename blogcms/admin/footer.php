@@ -1,4 +1,14 @@
-
+<?php
+/**
+ * Admin Footer Template
+ *
+ * This file contains the closing tags for the main content area, the sticky footer,
+ * the scroll-to-top button, the logout modal, and the necessary JavaScript includes.
+ * It is included at the bottom of admin pages.
+ *
+ * @package Admin
+ */
+?>
       </div>
       <!-- /.container-fluid -->
 

@@ -1,4 +1,13 @@
-<?php 
+<?php
+/**
+ * Single Post View
+ *
+ * This file displays the full content of a single blog post.
+ * It expects an 'id' parameter in the URL. If the ID is missing,
+ * it redirects the user to the homepage.
+ *
+ * @package FrontEnd
+ */
 	require_once('includes/db.php');
 	global $conn;
  ?>

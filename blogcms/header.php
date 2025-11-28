@@ -1,3 +1,14 @@
+<?php
+/**
+ * Header Template
+ *
+ * This file contains the opening HTML tags, head section (meta, title, CSS links),
+ * and the main navigation header for the front-end website.
+ * It is included at the top of front-end pages.
+ *
+ * @package FrontEnd
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

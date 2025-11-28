@@ -1,4 +1,14 @@
-
+<?php
+/**
+ * Admin Header Template
+ *
+ * This file contains the opening HTML tags, meta information, CSS links,
+ * and the top navigation bar for the admin panel.
+ * It is included at the top of admin pages.
+ *
+ * @package Admin
+ */
+?>
 <!DOCTYPE html>
 <html lang="en">
 
