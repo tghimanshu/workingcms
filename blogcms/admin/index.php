@@ -1,6 +1,17 @@
-<?php require_once '../includes/db.php'; global $conn; ?>
-<?php 
-  if (isset($_POST['submit'])) {
+<?php
+/**
+ * Admin Login Page
+ *
+ * This page provides the login interface for the admin panel.
+ * It authenticates the user against the database and establishes a session upon successful login.
+ *
+ * @package Admin
+ */
+require_once '../includes/db.php';
+global $conn;
+
+// Handle login submission
+if (isset($_POST['submit'])) {
     $username = $_POST['username'];
     $pass = $_POST['pass'];
     $login = mysqli_query($conn, "SELECT * FROM `users` WHERE username = '".$username."' AND pass = '".$pass."';");
@@ -13,7 +24,7 @@
       $errorMessage = "Login Failed!";
     }
 
-  }
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">

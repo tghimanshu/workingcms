@@ -1,3 +1,13 @@
+/**
+ * SB Admin 2 - Custom Scripts
+ *
+ * This script handles various UI interactions for the admin panel, including:
+ * - Toggling the side navigation
+ * - Smooth scrolling for the "scroll to top" button
+ * - Controlling the appearance of the "scroll to top" button
+ *
+ * @param {jQuery} $ - The jQuery object
+ */
 (function($) {
   "use strict"; // Start of use strict
 

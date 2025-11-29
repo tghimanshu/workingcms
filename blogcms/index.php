@@ -1,4 +1,13 @@
-<?php 
+<?php
+/**
+ * Homepage
+ *
+ * This file displays the main landing page of the website.
+ * It showcases services (placeholder text) and lists recent blog posts.
+ * It fetches post data from the database.
+ *
+ * @package FrontEnd
+ */
 	require_once('includes/db.php');
 	global $conn;
  ?>
